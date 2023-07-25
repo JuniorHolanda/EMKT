@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,11 +13,106 @@
 }
 
 html {
-    width: 600px;
-    background-color: gray;
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.logo {
-
-background-color: antiquewhite;
+p, li {
+    font-family: 'Inter', sans-serif;
 }
+
+h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-image: url(img/backGround.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 100vh;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+
+
+.destaque {
+    background-color: #470014;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.destaque img {
+
+    border-radius: 30px;
+}
+
+.destaque ul {
+margin: 20px;
+text-align: center;
+
+}
+
+.destaque li {
+    display: inline-block;
+    margin-right: 30px;
+    color: #b9594e;
+    cursor: pointer;
+    padding: 10px;
+} 
+
+.destaque li:hover {
+    margin-right: 30px;
+    background-color: #333d74;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+} 
+
+.chamada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+    padding-top: 60px;;
+    gap: 30px;
+}
+
+.chamada h1 {
+font-size: 5em;
+line-height: 0.9;
+}
+
+.chamada p {
+    font-size: 1em;
+    line-height: 2;
+}
+
