@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    width: 600px;
+    background-color: gray;
+}
+
+.logo {
+
+background-color: antiquewhite;
+}
