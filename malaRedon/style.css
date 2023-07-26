@@ -6,124 +6,276 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+/* Decalaração universal*/
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-html {
+@media screen and (min-width: 700px) {
+
+    html {
     
-    background-color: rgb(212, 212, 212);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-p, li {
-    font-family: 'Inter', sans-serif;
-}
-
-h1 {
-    font-family: 'Inter', sans-serif;
-}
-
-
-body {
-    background-image: url(img/backGround.jpg);
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
-    width: 700px;
-
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.logo img {
-    width: 150px;
-}
-
-
-
-.destaque {
-    background-color: #470014;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.destaque img {
-
-    border-radius: 30px;
-}
-
-.destaque ul {
-margin: 20px;
-text-align: center;
-
-}
-
-.destaque li {
-    display: inline-block;
-    margin-right: 30px;
-    color: #b9594e;
-    cursor: pointer;
-    padding: 10px;
-} 
-
-.destaque li:hover {
-    margin-right: 30px;
-    background-color: #333d74;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.3s;
+        background-color: rgb(212, 212, 212);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     
-} 
-
-.chamada {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 90px;
-    padding-top: 60px;;
-    gap: 30px;
+    
+    }
+    
+    p, li {
+        font-family: 'Inter', sans-serif;
+        
+    }
+    
+    h1 {
+        font-family: 'Inter', sans-serif;
+    }
+    
+    
+    body {
+        background-image: url(img/backGround.jpg);
+        background-repeat: no-repeat;
+        background-color: rgb(255, 255, 255);
+        max-width: 700px;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+    
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .logo img {
+        width: 150px;
+    }
+    
+    
+    /* aqui começa o destaque*/
+    
+    .destaque {
+        background-color: #470014;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .destaque img {
+    
+        border-radius: 30px;
+    }
+    
+    .destaque ul {
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: center;
+    
+    }
+    
+    .destaque li {
+        display: inline-block;
+        margin-right: 30px;
+        color: #b9594e;
+        cursor: pointer;
+        padding: 10px;
+    } 
+    
+    .destaque li:hover {
+        margin-right: 30px;
+        background-color: #333d74;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 0.3s;
+        
+    } 
+    
+    .chamada {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 90px;
+        padding-top: 60px;;
+        gap: 30px;
+    }
+    
+    .chamada h1 {
+        font-size: 5em;
+        line-height: 0.9;
+    }
+    
+    .chamada p {
+        font-size: 1em;
+        line-height: 2;
+    }
+    
+    /*aqui começa o corpo*/
+    
+    .corpo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+       
+    }
+    
+    .item img {
+        max-width: 350px;
+        min-width: 200px;
+    }
+    
+    .item > p {
+        display: inline-block;
+        line-height: 2;
+    }
 }
 
-.chamada h1 {
-    font-size: 5em;
-    line-height: 0.9;
-}
+/* Aqui começa o Mobile*/
 
-.chamada p {
-    font-size: 1em;
-    line-height: 2;
-}
+@media  screen and (max-width: 700px) {
 
-.corpo {
-    display: flex;
-    flex-wrap: wrap;
-}
+    html {
+    
+        background-color: rgb(201, 201, 201);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+    
+    p, li {
+        font-family: 'Inter', sans-serif;
+        
+    }
+    
+    h1 {
+        font-family: 'Inter', sans-serif;
+    }
+    
+    
+    body {
+        background-image: url(img/backGround.jpg);
+        background-repeat: no-repeat;
+        background-color: rgb(255, 255, 255);
+        max-width: 700px;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+    
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .logo img {
+        width: 150px;
+    }
+    
+    
+    /* aqui começa o destaque*/
+    
+    .destaque {
+        background-color: #470014;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 90%;
+        gap: 30px;
+    }
+    
+    .destaque img {
 
-.item {
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-}
+        border-radius: 30px;
+        width: 100%;
+    }
+    
+    .destaque ul {
+        color: #b9594e;
+        list-style: none;
+        text-transform: uppercase;
+        display: flex;
+        gap: 25px;
+        padding: 25px;
+        background-color: #640822;
+        border-radius: 10px;
+    }
+    
+    
+    .chamada {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-bottom: 90px;
+        padding-top: 60px;;
+        gap: 30px;
+    }
+    
+    .chamada h1 {
+        font-size: 5em;
+        line-height: 0.9;
+    }
+    
+    .chamada p {
+        font-size: 1em;
+        line-height: 2;
+    }
+    
+    /*aqui começa o corpo*/
+    
+    .corpo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+       
+    }
+    
+    .item img {
+        max-width: 350px;
+        min-width: 200px;
+    }
+    
+    .item > p {
+        display: inline-block;
+        line-height: 2;
+    }
 
+}
