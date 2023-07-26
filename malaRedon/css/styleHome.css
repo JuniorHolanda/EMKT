@@ -52,12 +52,11 @@ header img {
 }
 
 button {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(218, 54, 54);
     border: none;
     color: white;
     padding: 10px;
-    border-radius: 5px;
-    width: 80%;
+    width: 100%;
 }
 
 button:hover {
@@ -73,8 +72,58 @@ button:hover {
     height: 20vh;
     background-size: cover;
     background-position: center;
-    padding-bottom: 10px;
     background-color: rgb(167, 166, 165);
+    border
+}
+    /*Aqui começam as imagens dos produtos organizadas em ID*/
+
+#necessaire {
+    background-image: url(../img/imgDestques/necessaire.jpg);
+}
+
+#mochila {
+    background-image: url(../img/imgDestques/mochila.jpg);
+}
+
+#portaBloco {
+    background-image: url(../img/imgDestques/portaBloco.jpg);
+}
+
+#termica {
+
+    background-image: url(../img/imgDestques/termica.jpg);
+}
+
+#diversos {
+    background-image: url(../img/imgDestques/diversos.jpg);
+}
+
+#mala {
+    background-image: url(../img/imgDestques/mala.jpg);
+}
+
+#carteira {
+    background-image: url(../img/imgDestques/carteiras.jpg);
+}
+
+#pasta {
+    background-image: url(../img/imgDestques/pastas.jpg);
+}
+
+#estojo {
+    background-color: rgb(63, 56, 56);
+}
+
+#bolsa {
+    background-image: url(../img/imgDestques/bolsa.jpg);
+}
+
+#importados {
+    background-color: rgb(209, 155, 84);
+}
+
+#null {
+    background-color: rgb(94, 47, 100);
 }
 
 footer {
