@@ -107,36 +107,36 @@ button:hover {
     /*Aqui começam as imagens dos produtos organizadas em ID*/
 
 #necessaire {
-    background-image: url(../img/imgDestques/necessaire.jpg);
+    background-image: url(malaRedon/img/imgDestques/necessaire.jpg);
 }
 
 #mochila {
-    background-image: url(../img/imgDestques/mochila.jpg);
+    background-image: url(malaRedon/img/imgDestques/mochila.jpg);
 }
 
 #portaBloco {
-    background-image: url(../img/imgDestques/portaBloco.jpg);
+    background-image: url(malaRedon/img/imgDestques/portaBloco.jpg);
 }
 
 #termica {
 
-    background-image: url(../img/imgDestques/termica.jpg);
+    background-image: url(malaRedon/img/imgDestques/termica.jpg);
 }
 
 #diversos {
-    background-image: url(../img/imgDestques/diversos.jpg);
+    background-image: url(malaRedon/img/imgDestques/diversos.jpg);
 }
 
 #mala {
-    background-image: url(../img/imgDestques/mala.jpg);
+    background-image: url(malaRedon/img/imgDestques/mala.jpg);
 }
 
 #carteira {
-    background-image: url(../img/imgDestques/carteiras.jpg);
+    background-image: url(malaRedon/img/imgDestques/carteiras.jpg);
 }
 
 #pasta {
-    background-image: url(../img/imgDestques/pastas.jpg);
+    background-image: url(malaRedon/img/imgDestques/pastas.jpg);
 }
 
 #estojo {
@@ -144,7 +144,7 @@ button:hover {
 }
 
 #bolsa {
-    background-image: url(../img/imgDestques/bolsa.jpg);
+    background-image: url(malaRedon/img/imgDestques/bolsa.jpg);
 }
 
 #importados {
