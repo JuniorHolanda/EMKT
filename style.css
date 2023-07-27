@@ -19,7 +19,7 @@
     
         background-color: rgb(212, 212, 212);
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         align-items: center;
     
     
@@ -37,7 +37,7 @@
     
     
     body {
-        background-image: url(malaRedon/img/backGround.jpg);
+        background-image: url(malaRedon/img/backGround.jpg)
         background-repeat: no-repeat;
         background-color: rgb(255, 255, 255);
         flex-direction: column;
