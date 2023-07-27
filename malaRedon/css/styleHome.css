@@ -13,67 +13,96 @@
     
 }
 
-h1 {
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
 body {
-    background-color: rgb(27, 27, 27);
+    background-color: #0d0c25;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header {
-    background-color: rgb(53, 53, 53);
+    background-color: #0d0c25;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    margin-top: 30px;
 
 }
 
 header img {
         width: 160px;
-        margin-bottom: 30px;
+        
 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #271F30;
+    width: 90%;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 30p;
+}
+
+main h1 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #F24405;
+    letter-spacing: 4px;
+    padding: 30px;   
+}
+
+main p {
+    font-family: 'Inter', sans-serif;
+    color: #b3b3b3;
+    width: 80%;
+    text-align: justify;
 }
 
 .categorias {
     display: flex;
-    justify-content: space-evenly;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px;
+    padding: 35px 0px 40px;
     flex-wrap: wrap;
-    gap: 5px;   
+    gap: 20px; 
+      
 }
 
 button {
-    background-color: rgb(218, 54, 54);
+    background-color: #F24405;
     border: none;
-    color: white;
-    padding: 10px;
+    color: #271F30;
     width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
 button:hover {
-    background-color: rgb(230, 115, 115);
+    background-color: #ff4f0f;
 }
 
 .item {
     display: flex;
     align-items: end;
     justify-content: center;   
-    background-color: rgb(97, 153, 153);
-    width: 30%;
+    background-color: rgb(90, 90, 90);
+    width: 40%;
     height: 20vh;
     background-size: cover;
     background-position: center;
-    background-color: rgb(167, 166, 165);
-    border
+    background-color: #a7a6a5;
+    border-radius: 10px;
+    box-shadow: #160b3d2d 0px 0px 20px 1px;
+    
+    
 }
     /*Aqui começam as imagens dos produtos organizadas em ID*/
 
