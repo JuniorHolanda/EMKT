@@ -37,7 +37,7 @@
     
     
     body {
-        background-image: url(malaRedon/img/backGround.jpg)
+        background-image: url(malaRedon/img/backGround.jpg);
         background-repeat: no-repeat;
         background-color: rgb(255, 255, 255);
         flex-direction: column;
