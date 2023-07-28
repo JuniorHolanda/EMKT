@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root {
+    --azulEscuro: #025259;
+    --azulMedio: #007172;
+    --amarelo: #F29325;
+    --laranja: #D94F04;
+    --marfim: #F4E2DE;
+    --preto: #1d1d1d;
+    --branco: #f7f7f7;
+
+}
+
+/* Decalaração universal*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--marfim);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50vh auto 10vh;
+}
+
+
+header {
+    background-image: url(malaRedon/img/imgCategorias/térmicaJL.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: auto;
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: var(--branco);
+    font-family: 'Inter', sans-serif;
+    font-size: 10vw;
+}
+
+
+main {
+
+   flex-direction: column;
+   grid-column: 1/3;
+   gap: 30px; 
+   padding: 30px;
+   background-color: #F29325;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-auto-rows: 25vh 25vh 25vh; 
+   border: solid;
+}
+
+.item {
+    background-color: #1d1d1d;
+}
+
+.fotoBau {
+  position: relative; /* Necessário para que a imagem respeite o tamanho da div pai */
+  width: 100%; /* A imagem ocupará 100% da largura da div fotoBau */
+  height: 0; /* Inicialmente, a altura será 0 para permitir o ajuste responsivo */
+  padding-bottom: 75%; /* Proporção 4:3 (outra proporção pode ser usada conforme necessário) */
+  overflow: hidden; 
+
+}
+
+.infoBau {
+}
+article {
+    background-color: var(--laranja);
+    width: 100%;
+    height: auto;
+    grid-column: 3/4;
+}
+
+footer {
+    background-color: var(--azulEscuro);
+    width: 100%;
+    height: auto;
+    grid-column: 1/4;
+}
+
